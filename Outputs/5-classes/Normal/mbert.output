@@ -1,0 +1,284 @@
+Fold 1
+-------
+
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+
+Number of correct predictions in the training set 4759
+Epoch: 01 | Epoch Time: 1m 19s
+Train Acc1 0.7886973815048061 Train Loss1 0.10065022855997086
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4793
+Epoch: 02 | Epoch Time: 1m 17s
+Train Acc1 0.7943321179980112 Train Loss1 0.003955145366489887
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4820
+Epoch: 03 | Epoch Time: 1m 17s
+Train Acc1 0.7988067616837918 Train Loss1 0.026283619925379753
+
+Number of correct predictions in the test set 4876
+Val Acc1 0.8080875041431885
+Number of correct predictions in the training set 4899
+Epoch: 04 | Epoch Time: 1m 17s
+Train Acc1 0.811899237653298 Train Loss1 0.008931570686399937
+
+Number of correct predictions in the test set 4950
+Val Acc1 0.8203513423931057
+Number of correct predictions in the training set 4966
+Epoch: 05 | Epoch Time: 1m 17s
+Train Acc1 0.8230029830957905 Train Loss1 0.004406638443470001
+
+Number of correct predictions in the test set 5025
+Val Acc1 0.8327809081869406
+-------------
+End of Fold 0
+
+/usr/local/lib/python3.7/dist-packages/sklearn/metrics/_classification.py:1272: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+                   precision    recall  f1-score   support
+
+None-of-the-above       0.89      0.98      0.93      4787
+       Homophobic       0.42      0.40      0.41       465
+      Transphobic       0.00      0.00      0.00       184
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.44      0.52      0.48       281
+
+         accuracy                           0.83      6034
+        macro avg       0.35      0.38      0.36      6034
+     weighted avg       0.76      0.83      0.79      6034
+
+[[4693   72    0    0   22]
+ [ 171  185    0    0  109]
+ [  71   70    0    0   43]
+ [ 275   31    0    0   11]
+ [  52   82    0    0  147]]
+Fold 2
+-------
+
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+
+Number of correct predictions in the training set 4761
+Epoch: 01 | Epoch Time: 1m 17s
+Train Acc1 0.7890288365926417 Train Loss1 0.05374696105718613
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4789
+Epoch: 02 | Epoch Time: 1m 17s
+Train Acc1 0.7936692078223401 Train Loss1 0.04996276646852493
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4854
+Epoch: 03 | Epoch Time: 1m 17s
+Train Acc1 0.804441498176997 Train Loss1 0.005227653309702873
+
+Number of correct predictions in the test set 4955
+Val Acc1 0.8211799801126947
+Number of correct predictions in the training set 4944
+Epoch: 04 | Epoch Time: 1m 17s
+Train Acc1 0.8193569771295989 Train Loss1 0.027918195351958275
+
+Number of correct predictions in the test set 5096
+Val Acc1 0.8445475638051043
+Number of correct predictions in the training set 5053
+Epoch: 05 | Epoch Time: 1m 17s
+Train Acc1 0.837421279416639 Train Loss1 0.010275915265083313
+
+Number of correct predictions in the test set 5110
+Val Acc1 0.8468677494199536
+-------------
+End of Fold 1
+                   precision    recall  f1-score   support
+
+None-of-the-above       0.93      0.98      0.95      4787
+       Homophobic       0.48      0.44      0.46       465
+      Transphobic       0.00      0.00      0.00       184
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.39      0.81      0.53       281
+
+         accuracy                           0.85      6034
+        macro avg       0.36      0.45      0.39      6034
+     weighted avg       0.79      0.85      0.82      6034
+
+[[4677   57    0    0   53]
+ [  60  206    0    0  199]
+ [  24   70    0    0   90]
+ [ 256   50    0    0   11]
+ [   5   49    0    0  227]]
+Fold 3
+-------
+
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+
+Number of correct predictions in the training set 4764
+Epoch: 01 | Epoch Time: 1m 17s
+Train Acc1 0.789526019224395 Train Loss1 0.031049150973558426
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4786
+Epoch: 02 | Epoch Time: 1m 17s
+Train Acc1 0.7931720251905866 Train Loss1 0.08557853102684021
+
+Number of correct predictions in the test set 4795
+Val Acc1 0.7946635730858468
+Number of correct predictions in the training set 4817
+Epoch: 03 | Epoch Time: 1m 17s
+Train Acc1 0.7983095790520384 Train Loss1 0.04129302501678467
+
+Number of correct predictions in the test set 4885
+Val Acc1 0.8095790520384487
+Number of correct predictions in the training set 4867
+Epoch: 04 | Epoch Time: 1m 17s
+Train Acc1 0.8065959562479283 Train Loss1 0.006884680595248938
+
+Number of correct predictions in the test set 4937
+Val Acc1 0.8181968843221743
+Number of correct predictions in the training set 4932
+Epoch: 05 | Epoch Time: 1m 17s
+Train Acc1 0.8173682466025853 Train Loss1 0.02094307355582714
+
+Number of correct predictions in the test set 5000
+Val Acc1 0.8286377195889957
+-------------
+End of Fold 2
+                   precision    recall  f1-score   support
+
+None-of-the-above       0.89      0.97      0.93      4787
+       Homophobic       0.40      0.32      0.36       465
+      Transphobic       0.00      0.00      0.00       184
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.44      0.71      0.54       281
+
+         accuracy                           0.83      6034
+        macro avg       0.35      0.40      0.37      6034
+     weighted avg       0.76      0.83      0.79      6034
+
+[[4649   61    0    0   77]
+ [ 173  151    0    0  141]
+ [  84   80    0    0   20]
+ [ 261   38    0    0   18]
+ [  30   51    0    0  200]]
+Fold 4
+-------
+
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+
+Number of correct predictions in the training set 4757
+Epoch: 01 | Epoch Time: 1m 17s
+Train Acc1 0.7883659264169705 Train Loss1 0.05790187418460846
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4788
+Epoch: 02 | Epoch Time: 1m 17s
+Train Acc1 0.7935034802784222 Train Loss1 0.04781027510762215
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4787
+Epoch: 03 | Epoch Time: 1m 17s
+Train Acc1 0.7933377527345045 Train Loss1 0.026098202913999557
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4823
+Epoch: 04 | Epoch Time: 1m 17s
+Train Acc1 0.7993039443155452 Train Loss1 0.04581684619188309
+
+Number of correct predictions in the test set 4890
+Val Acc1 0.8104076897580378
+Number of correct predictions in the training set 4883
+Epoch: 05 | Epoch Time: 1m 17s
+Train Acc1 0.8092475969506131 Train Loss1 0.010212169960141182
+
+Number of correct predictions in the test set 4943
+Val Acc1 0.8191912495856811
+-------------
+End of Fold 3
+                   precision    recall  f1-score   support
+
+None-of-the-above       0.88      0.98      0.93      4787
+       Homophobic       0.36      0.53      0.43       465
+      Transphobic       0.00      0.00      0.00       184
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.00      0.00      0.00       281
+
+         accuracy                           0.82      6034
+        macro avg       0.25      0.30      0.27      6034
+     weighted avg       0.72      0.82      0.77      6034
+
+[[4697   90    0    0    0]
+ [ 219  246    0    0    0]
+ [  72  112    0    0    0]
+ [ 277   40    0    0    0]
+ [  80  201    0    0    0]]
+Fold 5
+-------
+
+Some weights of the model checkpoint at bert-base-multilingual-cased were not used when initializing BertModel: ['cls.predictions.transform.dense.weight', 'cls.predictions.transform.LayerNorm.weight', 'cls.seq_relationship.bias', 'cls.predictions.bias', 'cls.predictions.transform.LayerNorm.bias', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight']
+- This IS expected if you are initializing BertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+
+Number of correct predictions in the training set 4760
+Epoch: 01 | Epoch Time: 1m 17s
+Train Acc1 0.7888631090487238 Train Loss1 0.07777603715658188
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4783
+Epoch: 02 | Epoch Time: 1m 17s
+Train Acc1 0.7926748425588332 Train Loss1 0.0076991901732981205
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4831
+Epoch: 03 | Epoch Time: 1m 17s
+Train Acc1 0.8006297646668876 Train Loss1 0.006038217339664698
+
+Number of correct predictions in the test set 4952
+Val Acc1 0.8206827974809413
+Number of correct predictions in the training set 4937
+Epoch: 04 | Epoch Time: 1m 17s
+Train Acc1 0.8181968843221743 Train Loss1 0.00482154218479991
+
+Number of correct predictions in the test set 5028
+Val Acc1 0.833278090818694
+Number of correct predictions in the training set 5018
+Epoch: 05 | Epoch Time: 1m 17s
+Train Acc1 0.831620815379516 Train Loss1 0.013663535006344318
+
+Number of correct predictions in the test set 5080
+Val Acc1 0.8418959231024196
+-------------
+End of Fold 4
+                   precision    recall  f1-score   support
+
+None-of-the-above       0.93      0.98      0.95      4787
+       Homophobic       0.40      0.45      0.42       465
+      Transphobic       0.00      0.00      0.00       184
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.43      0.72      0.54       281
+
+         accuracy                           0.84      6034
+        macro avg       0.35      0.43      0.38      6034
+     weighted avg       0.79      0.84      0.81      6034
+
+[[4669   74    0    0   44]
+ [  85  209    0    0  171]
+ [  46   98    0    0   40]
+ [ 225   78    0    0   14]
+ [  10   69    0    0  202]]
