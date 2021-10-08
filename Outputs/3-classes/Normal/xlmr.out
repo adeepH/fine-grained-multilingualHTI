@@ -1,0 +1,246 @@
+
+
+Fold 1
+-------
+
+Downloading: 100%
+953M/953M [00:32<00:00, 32.0MB/s]
+
+Number of correct predictions in the training set 5154
+Epoch: 01 | Epoch Time: 1m 24s
+Train Acc1 0.8541597613523367 Train Loss1 0.0005661296308971941
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 02 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.0052032130770385265
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 03 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.004602523986250162
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 04 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.0007568793371319771
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 05 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.01898348331451416
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+-------------
+End of Fold 1
+
+/opt/conda/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+                        precision    recall  f1-score   support
+
+Non-anti-LGBT+ content       0.89      1.00      0.94      5385
+            Homophobic       0.00      0.00      0.00       465
+           Transphobic       0.00      0.00      0.00       184
+
+              accuracy                           0.89      6034
+             macro avg       0.30      0.33      0.31      6034
+          weighted avg       0.80      0.89      0.84      6034
+
+[[5385    0    0]
+ [ 465    0    0]
+ [ 184    0    0]]
+Fold 2
+-------
+Number of correct predictions in the training set 5181
+Epoch: 01 | Epoch Time: 1m 24s
+Train Acc1 0.8586344050381173 Train Loss1 0.03277667611837387
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 02 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.03829577565193176
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 03 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.009988443925976753
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 04 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.006444490049034357
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 05 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.010389452800154686
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+-------------
+End of Fold 2
+                        precision    recall  f1-score   support
+
+Non-anti-LGBT+ content       0.89      1.00      0.94      5385
+            Homophobic       0.00      0.00      0.00       465
+           Transphobic       0.00      0.00      0.00       184
+
+              accuracy                           0.89      6034
+             macro avg       0.30      0.33      0.31      6034
+          weighted avg       0.80      0.89      0.84      6034
+
+[[5385    0    0]
+ [ 465    0    0]
+ [ 184    0    0]]
+Fold 3
+-------
+Number of correct predictions in the training set 5094
+Epoch: 01 | Epoch Time: 1m 24s
+Train Acc1 0.8442161087172687 Train Loss1 0.014031361788511276
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 02 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.0047922697849571705
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 03 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.16104166209697723
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 04 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.007688420359045267
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 05 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.07506483793258667
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+-------------
+End of Fold 3
+                        precision    recall  f1-score   support
+
+Non-anti-LGBT+ content       0.89      1.00      0.94      5385
+            Homophobic       0.00      0.00      0.00       465
+           Transphobic       0.00      0.00      0.00       184
+
+              accuracy                           0.89      6034
+             macro avg       0.30      0.33      0.31      6034
+          weighted avg       0.80      0.89      0.84      6034
+
+[[5385    0    0]
+ [ 465    0    0]
+ [ 184    0    0]]
+Fold 4
+-------
+Number of correct predictions in the training set 5220
+Epoch: 01 | Epoch Time: 1m 24s
+Train Acc1 0.8650977792509115 Train Loss1 0.015036724507808685
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 02 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.030958153307437897
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 03 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.09130831807851791
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 04 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.051240112632513046
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 05 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.000172268963069655
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+-------------
+End of Fold 4
+                        precision    recall  f1-score   support
+
+Non-anti-LGBT+ content       0.89      1.00      0.94      5385
+            Homophobic       0.00      0.00      0.00       465
+           Transphobic       0.00      0.00      0.00       184
+
+              accuracy                           0.89      6034
+             macro avg       0.30      0.33      0.31      6034
+          weighted avg       0.80      0.89      0.84      6034
+
+[[5385    0    0]
+ [ 465    0    0]
+ [ 184    0    0]]
+Fold 5
+-------
+Number of correct predictions in the training set 5277
+Epoch: 01 | Epoch Time: 1m 24s
+Train Acc1 0.874544249254226 Train Loss1 0.015061264857649803
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 02 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.061027657240629196
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 03 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.0175610464066267
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 04 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.03208574652671814
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+Number of correct predictions in the training set 5385
+Epoch: 05 | Epoch Time: 1m 24s
+Train Acc1 0.8924428239973483 Train Loss1 0.013228035531938076
+
+Number of correct predictions in the test set 5385
+Val Acc1 0.8924428239973483
+-------------
+End of Fold 5
+                        precision    recall  f1-score   support
+
+Non-anti-LGBT+ content       0.89      1.00      0.94      5385
+            Homophobic       0.00      0.00      0.00       465
+           Transphobic       0.00      0.00      0.00       184
+
+              accuracy                           0.89      6034
+             macro avg       0.30      0.33      0.31      6034
+          weighted avg       0.80      0.89      0.84      6034
+
+[[5385    0    0]
+ [ 465    0    0]
+ [ 184    0    0]]
+

@@ -1,83 +1,142 @@
+Fold 1
+-------
+
+Downloading: 100%
+1.12G/1.12G [00:36<00:00, 33.2MB/s]
+
+Number of correct predictions in the training set 4773
+Epoch: 01 | Epoch Time: 1m 1s
+Train Acc1 0.7910175671196552 Train Loss1 0.002065783366560936
 
 Number of correct predictions in the test set 4787
 Val Acc1 0.7933377527345045
-Number of correct predictions in the training set 4792
-Epoch: 02 | Epoch Time: 1m 34s
-Train Acc1 0.7941663904540934 Train Loss1 0.00010705737804528326
+Number of correct predictions in the training set 4782
+Epoch: 02 | Epoch Time: 1m 1s
+Train Acc1 0.7925091150149154 Train Loss1 0.00021167911472730339
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4787
+Epoch: 03 | Epoch Time: 1m 1s
+Train Acc1 0.7933377527345045 Train Loss1 0.5672690868377686
+
+Number of correct predictions in the test set 4807
+Val Acc1 0.7966523036128604
+Number of correct predictions in the training set 4810
+Epoch: 04 | Epoch Time: 1m 1s
+Train Acc1 0.7971494862446138 Train Loss1 6.424754246836528e-05
+
+Number of correct predictions in the test set 4809
+Val Acc1 0.796983758700696
+Number of correct predictions in the training set 4815
+Epoch: 05 | Epoch Time: 1m 1s
+Train Acc1 0.7979781239642028 Train Loss1 0.03577592596411705
+
+Number of correct predictions in the test set 4809
+Val Acc1 0.796983758700696
+-------------
+End of Fold 1
+
+/opt/conda/lib/python3.7/site-packages/sklearn/metrics/_classification.py:1221: UndefinedMetricWarning: Precision and F-score are ill-defined and being set to 0.0 in labels with no predicted samples. Use `zero_division` parameter to control this behavior.
+  _warn_prf(average, modifier, msg_start, len(result))
+
+                   precision    recall  f1-score   support
+
+None-of-the-above       0.82      0.99      0.89      4787
+       Homophobic       0.20      0.00      0.01       465
+      Transphobic       0.00      0.00      0.00       184
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.35      0.29      0.32       281
+
+         accuracy                           0.80      6034
+        macro avg       0.27      0.26      0.24      6034
+     weighted avg       0.68      0.80      0.72      6034
+
+[[4725    4    0    0   58]
+ [ 389    2    0    0   74]
+ [ 177    1    0    0    6]
+ [ 301    2    0    0   14]
+ [ 198    1    0    0   82]]
+Fold 2
+-------
+Number of correct predictions in the training set 4776
+Epoch: 01 | Epoch Time: 1m 1s
+Train Acc1 0.7915147497514087 Train Loss1 0.01311156339943409
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4789
+Epoch: 02 | Epoch Time: 1m 1s
+Train Acc1 0.7936692078223401 Train Loss1 0.5160778760910034
+
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4787
+Epoch: 03 | Epoch Time: 1m 1s
+Train Acc1 0.7933377527345045 Train Loss1 0.00011014451592927799
 
 Number of correct predictions in the test set 4805
 Val Acc1 0.7963208485250248
-Number of correct predictions in the training set 4802
-Epoch: 03 | Epoch Time: 1m 34s
-Train Acc1 0.7958236658932714 Train Loss1 0.008325086906552315
+Number of correct predictions in the training set 4793
+Epoch: 04 | Epoch Time: 1m 1s
+Train Acc1 0.7943321179980112 Train Loss1 0.03388803452253342
 
-Number of correct predictions in the test set 4856
-Val Acc1 0.8047729532648326
-Number of correct predictions in the training set 4854
-Epoch: 04 | Epoch Time: 1m 34s
-Train Acc1 0.804441498176997 Train Loss1 0.0011846309062093496
+Number of correct predictions in the test set 4815
+Val Acc1 0.7979781239642028
+Number of correct predictions in the training set 4817
+Epoch: 05 | Epoch Time: 1m 1s
+Train Acc1 0.7983095790520384 Train Loss1 6.27188419457525e-05
 
-Number of correct predictions in the test set 4959
-Val Acc1 0.8218428902883659
-Number of correct predictions in the training set 4906
-Epoch: 05 | Epoch Time: 1m 34s
-Train Acc1 0.8130593304607225 Train Loss1 0.00010800666495924816
-
-Number of correct predictions in the test set 5003
-Val Acc1 0.829134902220749
+Number of correct predictions in the test set 4873
+Val Acc1 0.8075903215114352
 -------------
 End of Fold 2
                    precision    recall  f1-score   support
 
-None-of-the-above       0.88      0.98      0.93      4787
-       Homophobic       0.34      0.22      0.26       465
+None-of-the-above       0.84      0.99      0.91      4787
+       Homophobic       0.36      0.24      0.29       465
       Transphobic       0.00      0.00      0.00       184
-      Hope-Speech       0.71      0.24      0.35       317
-   Counter-speech       0.43      0.48      0.45       281
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.37      0.14      0.21       281
 
-         accuracy                           0.83      6034
-        macro avg       0.47      0.38      0.40      6034
-     weighted avg       0.78      0.83      0.80      6034
+         accuracy                           0.81      6034
+        macro avg       0.31      0.27      0.28      6034
+     weighted avg       0.71      0.81      0.75      6034
 
-[[4693   39    0   12   43]
- [ 256  100    0   12   97]
- [  94   64    0    2   24]
- [ 188   39    0   75   15]
- [  87   54    0    5  135]]
+[[4720   48    0    0   19]
+ [ 308  113    0    0   44]
+ [ 127   54    0    0    3]
+ [ 277   38    0    0    2]
+ [ 176   65    0    0   40]]
 Fold 3
 -------
+Number of correct predictions in the training set 4755
+Epoch: 01 | Epoch Time: 1m 1s
+Train Acc1 0.7880344713291348 Train Loss1 0.004059277940541506
 
-Some weights of the model checkpoint at xlm-roberta-base were not used when initializing XLMRobertaModel: ['lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.dense.bias']
-- This IS expected if you are initializing XLMRobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing XLMRobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-
-Number of correct predictions in the training set 4763
-Epoch: 01 | Epoch Time: 1m 34s
-Train Acc1 0.7893602916804773 Train Loss1 0.00416842196136713
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4786
+Epoch: 02 | Epoch Time: 1m 1s
+Train Acc1 0.7931720251905866 Train Loss1 0.14174863696098328
 
 Number of correct predictions in the test set 4787
 Val Acc1 0.7933377527345045
 Number of correct predictions in the training set 4787
-Epoch: 02 | Epoch Time: 1m 34s
-Train Acc1 0.7933377527345045 Train Loss1 0.24795447289943695
+Epoch: 03 | Epoch Time: 1m 1s
+Train Acc1 0.7933377527345045 Train Loss1 0.0036910378839820623
 
 Number of correct predictions in the test set 4787
 Val Acc1 0.7933377527345045
 Number of correct predictions in the training set 4787
-Epoch: 03 | Epoch Time: 1m 34s
-Train Acc1 0.7933377527345045 Train Loss1 0.16397391259670258
+Epoch: 04 | Epoch Time: 1m 1s
+Train Acc1 0.7933377527345045 Train Loss1 0.42786580324172974
 
 Number of correct predictions in the test set 4787
 Val Acc1 0.7933377527345045
 Number of correct predictions in the training set 4787
-Epoch: 04 | Epoch Time: 1m 34s
-Train Acc1 0.7933377527345045 Train Loss1 0.008812555111944675
-
-Number of correct predictions in the test set 4787
-Val Acc1 0.7933377527345045
-Number of correct predictions in the training set 4787
-Epoch: 05 | Epoch Time: 1m 34s
-Train Acc1 0.7933377527345045 Train Loss1 0.08354753255844116
+Epoch: 05 | Epoch Time: 1m 1s
+Train Acc1 0.7933377527345045 Train Loss1 0.26868271827697754
 
 Number of correct predictions in the test set 4787
 Val Acc1 0.7933377527345045
@@ -102,113 +161,103 @@ None-of-the-above       0.79      1.00      0.88      4787
  [ 281    0    0    0    0]]
 Fold 4
 -------
-
-Some weights of the model checkpoint at xlm-roberta-base were not used when initializing XLMRobertaModel: ['lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.dense.bias']
-- This IS expected if you are initializing XLMRobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing XLMRobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-
-Number of correct predictions in the training set 4763
-Epoch: 01 | Epoch Time: 1m 34s
-Train Acc1 0.7893602916804773 Train Loss1 0.0024802752304822206
+Number of correct predictions in the training set 4769
+Epoch: 01 | Epoch Time: 1m 1s
+Train Acc1 0.790354656943984 Train Loss1 0.0017739415634423494
 
 Number of correct predictions in the test set 4787
 Val Acc1 0.7933377527345045
 Number of correct predictions in the training set 4788
-Epoch: 02 | Epoch Time: 1m 34s
-Train Acc1 0.7935034802784222 Train Loss1 4.426129817147739e-05
+Epoch: 02 | Epoch Time: 1m 1s
+Train Acc1 0.7935034802784222 Train Loss1 0.0005650547100231051
 
-Number of correct predictions in the test set 4823
-Val Acc1 0.7993039443155452
-Number of correct predictions in the training set 4807
-Epoch: 03 | Epoch Time: 1m 34s
-Train Acc1 0.7966523036128604 Train Loss1 0.004121529404073954
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4798
+Epoch: 03 | Epoch Time: 1m 1s
+Train Acc1 0.7951607557176003 Train Loss1 0.22172874212265015
 
-Number of correct predictions in the test set 4867
-Val Acc1 0.8065959562479283
-Number of correct predictions in the training set 4846
-Epoch: 04 | Epoch Time: 1m 34s
-Train Acc1 0.8031156778256545 Train Loss1 4.806942342838738e-06
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4789
+Epoch: 04 | Epoch Time: 1m 1s
+Train Acc1 0.7936692078223401 Train Loss1 0.19159024953842163
 
-Number of correct predictions in the test set 4898
-Val Acc1 0.8117335101093801
-Number of correct predictions in the training set 4888
-Epoch: 05 | Epoch Time: 1m 34s
-Train Acc1 0.8100762346702022 Train Loss1 3.292375185992569e-05
+Number of correct predictions in the test set 4788
+Val Acc1 0.7935034802784222
+Number of correct predictions in the training set 4797
+Epoch: 05 | Epoch Time: 1m 1s
+Train Acc1 0.7949950281736824 Train Loss1 0.002747193444520235
 
-Number of correct predictions in the test set 4958
-Val Acc1 0.821677162744448
+Number of correct predictions in the test set 4800
+Val Acc1 0.7954922108054359
 -------------
 End of Fold 4
                    precision    recall  f1-score   support
 
-None-of-the-above       0.88      0.98      0.93      4787
-       Homophobic       0.33      0.25      0.29       465
-      Transphobic       0.42      0.12      0.19       184
-      Hope-Speech       0.72      0.07      0.12       317
-   Counter-speech       0.43      0.43      0.43       281
+None-of-the-above       0.80      1.00      0.89      4787
+       Homophobic       0.00      0.00      0.00       465
+      Transphobic       0.00      0.00      0.00       184
+      Hope-Speech       0.00      0.00      0.00       317
+   Counter-speech       0.40      0.12      0.18       281
 
-         accuracy                           0.82      6034
-        macro avg       0.56      0.37      0.39      6034
-     weighted avg       0.79      0.82      0.79      6034
+         accuracy                           0.80      6034
+        macro avg       0.24      0.22      0.21      6034
+     weighted avg       0.65      0.80      0.71      6034
 
-[[4677   66    1    3   40]
- [ 232  118   19    4   92]
- [  77   73   22    0   12]
- [ 232   43    7   21   14]
- [ 100   57    3    1  120]]
+[[4767    0    0    0   20]
+ [ 447    0    0    0   18]
+ [ 180    0    0    0    4]
+ [ 310    0    0    0    7]
+ [ 248    0    0    0   33]]
 Fold 5
 -------
-
-Some weights of the model checkpoint at xlm-roberta-base were not used when initializing XLMRobertaModel: ['lm_head.layer_norm.weight', 'lm_head.bias', 'lm_head.decoder.weight', 'lm_head.dense.weight', 'lm_head.layer_norm.bias', 'lm_head.dense.bias']
-- This IS expected if you are initializing XLMRobertaModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
-- This IS NOT expected if you are initializing XLMRobertaModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
-
-Number of correct predictions in the training set 4787
-Epoch: 01 | Epoch Time: 1m 34s
-Train Acc1 0.7933377527345045 Train Loss1 0.0003924289776477963
+Number of correct predictions in the training set 4752
+Epoch: 01 | Epoch Time: 1m 1s
+Train Acc1 0.7875372886973815 Train Loss1 0.005011253524571657
 
 Number of correct predictions in the test set 4787
 Val Acc1 0.7933377527345045
-Number of correct predictions in the training set 4795
-Epoch: 02 | Epoch Time: 1m 34s
-Train Acc1 0.7946635730858468 Train Loss1 0.18580392003059387
+Number of correct predictions in the training set 4787
+Epoch: 02 | Epoch Time: 1m 1s
+Train Acc1 0.7933377527345045 Train Loss1 0.0012741750106215477
 
-Number of correct predictions in the test set 4808
-Val Acc1 0.7968180311567782
-Number of correct predictions in the training set 4801
-Epoch: 03 | Epoch Time: 1m 34s
-Train Acc1 0.7956579383493536 Train Loss1 0.06691926717758179
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4787
+Epoch: 03 | Epoch Time: 1m 1s
+Train Acc1 0.7933377527345045 Train Loss1 0.0027503902092576027
 
-Number of correct predictions in the test set 4864
-Val Acc1 0.806098773616175
-Number of correct predictions in the training set 4851
-Epoch: 04 | Epoch Time: 1m 34s
-Train Acc1 0.8039443155452436 Train Loss1 0.09831703454256058
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4788
+Epoch: 04 | Epoch Time: 1m 1s
+Train Acc1 0.7935034802784222 Train Loss1 0.10139811784029007
 
-Number of correct predictions in the test set 4884
-Val Acc1 0.809413324494531
-Number of correct predictions in the training set 4880
-Epoch: 05 | Epoch Time: 1m 34s
-Train Acc1 0.8087504143188597 Train Loss1 2.024483819695888e-06
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
+Number of correct predictions in the training set 4790
+Epoch: 05 | Epoch Time: 1m 1s
+Train Acc1 0.7938349353662578 Train Loss1 7.964488759171218e-05
 
-Number of correct predictions in the test set 4930
-Val Acc1 0.8170367915147497
+Number of correct predictions in the test set 4787
+Val Acc1 0.7933377527345045
 -------------
 End of Fold 5
                    precision    recall  f1-score   support
 
-None-of-the-above       0.87      0.98      0.92      4787
-       Homophobic       0.39      0.22      0.28       465
+None-of-the-above       0.79      1.00      0.88      4787
+       Homophobic       0.00      0.00      0.00       465
       Transphobic       0.00      0.00      0.00       184
       Hope-Speech       0.00      0.00      0.00       317
-   Counter-speech       0.41      0.54      0.47       281
+   Counter-speech       0.00      0.00      0.00       281
 
-         accuracy                           0.82      6034
-        macro avg       0.33      0.35      0.33      6034
-     weighted avg       0.74      0.82      0.77      6034
+         accuracy                           0.79      6034
+        macro avg       0.16      0.20      0.18      6034
+     weighted avg       0.63      0.79      0.70      6034
 
-[[4677   58    0    0   52]
- [ 250  102    0    0  113]
- [ 105   43    0    0   36]
- [ 278   23    0    0   16]
- [  93   37    0    0  151]]
+[[4787    0    0    0    0]
+ [ 465    0    0    0    0]
+ [ 184    0    0    0    0]
+ [ 317    0    0    0    0]
+ [ 281    0    0    0    0]]
